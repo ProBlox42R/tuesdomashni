@@ -10,18 +10,18 @@ int main() {
     scanf("%d", &c);
     if(a>b) {
         if (a>c) {
-            printf("\nThe biggest is: %d", a);
+            printf("The biggest is: %d\n", a);
         }
         else {
-            printf("\nThe biggest is: %d", c);
+            printf("The biggest is: %d\n", c);
         }
     }
     else {
         if(b>c) {
-            printf("\nThe biggest is: %d", b);
+            printf("The biggest is: %d\n", b);
         }
         else {
-            printf("\nThe biggest is: %d", c);
+            printf("The biggest is: %d\n", c);
         }
     }
     return 0;
