@@ -1,0 +1,43 @@
+body {
+    margin: 10;
+    padding: 0;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+}
+.formcard {
+    display: flex;
+    border: black solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;  
+    background-color: lightblue;
+
+
+
+}
+
+input {
+        margin: 5px;
+        padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 20px;
+}
+
+#email {
+    margin-bottom: 20px;
+}
