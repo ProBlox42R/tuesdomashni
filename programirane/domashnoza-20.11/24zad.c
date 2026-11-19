@@ -23,7 +23,7 @@ int main() {
     sum = sum - min;
     sum = sum - max;
     jud1 = jud - 2.00;
-    average = (float) sum / jud1);
+    average = (float) sum / jud1;
     printf("The lowest result: %d\n", min);
     printf("The highest result: %d\n", max);
     printf("the sum is (debug): %d\n", sum);
