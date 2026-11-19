@@ -10,7 +10,7 @@ int main() {
         digitOdd = 0;
         if (digit%2==0) {   //дали числото е четно (ако не нечетно)
             digitEven = 1;
-            if (digitOdd = 1) {
+            if (digitOdd == 1) {
                 n=n/10;
                 printf("debug: digitOdd: %d\n", digitOdd);
                 printf("debug: digitEven1: %d\n", digitEven);
@@ -26,7 +26,7 @@ int main() {
         }
         else {
             digitOdd=1;
-            if (digitEven=1) {
+            if (digitEven==1) {
                 printf("debug: digitOdd: %d\n", digitOdd);
                 printf("debug: digitEven1: %d\n", digitEven);
                 printf("debug: n: %d\n", n);
