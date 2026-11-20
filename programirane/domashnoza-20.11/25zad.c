@@ -23,7 +23,7 @@ int main() {
         sum = sum + weight;
         if (sum > m) {
             boxCount++;
-            sum = 1;
+            sum = weight;
         }
     }
     if(thrownCount==3) {

@@ -9,14 +9,13 @@ int main() {
     while(n!=0) {
         d=n%10;
         int currentCiN = d%2;
-        if (lastCiN && currentCiN) {
+        if (lastCiN == currentCiN) {
             isAlternating = 0;
             break;
         }
-        else if (lastCiN && currentCiN == 0) {
-            n = n/10;
-            isAlternating = 1;
-        }
+        
+        n = n/10;
+      
         lastCiN = currentCiN;
     }
     if (isAlternating) {
