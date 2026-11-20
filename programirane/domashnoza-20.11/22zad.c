@@ -13,7 +13,7 @@ int main() {
             isAlternating = 0;
             break;
         }
-        else if (lastCiN && !currentCiN == 0) {
+        else if (lastCiN && currentCiN == 0) {
             n = n/10;
             isAlternating = 1;
         }
